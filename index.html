@@ -5,28 +5,105 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Brian's Personal Site</title>
+        <!-- <link rel="stylesheet" type="text/css" href="css/styles.css"> -->
+        <link rel="icon" href="resources/darthVaderWhite.ico">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
 
     <body>
-        <img src="someImage.jpg" alt="brian profile picture">
-        <h1>Brian Homer</h1>
-        <p><em>Founder and CTO of the App Brewery.</em></p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut distinctio temporibus dicta placeat a voluptas, debitis ratione numquam praesentium consectetur magni excepturi! Necessitatibus impedit, ex pariatur doloremque temporibus libero quod.</p>
+        <div style="padding: 20px;">
+            <img src="resources/angela.png" alt="brian profile picture">
+            <div style="display: inline-block; margin: 20px;">
+                <h1>Brian Homer</h1>
+                <p><em>Front End Developer <strong>Overstock.com</strong>.</em></p>
+                <p>Proud father of four wonderfully, frustrating children.</p>
+            </div>
+        </div>
         <hr>
-        <h3>Books and Teaching</h3>
-        <ul>
-            <li>
-                The complete iOS App Development Boot Camp
-                <ul>
-                    <li>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    </li>
-                    <li>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    </li>
-                </ul>
-            </li>
-        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Dates
+                    </th>
+                    <th>
+                        Work
+                    </th>
+                </tr>
+            </thead>
+            <tr>
+                <td>
+                    2010-2013
+                </td>
+                <td>
+                    Some work experience
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2010
+                </td>
+                <td>
+                    different work experience;
+                </td>
+            </tr>
+        </table>
+
+        <h3>Work Experience</h3>
+        <div class="work-container">
+            <div class="work-header">
+                Dates
+            </div>
+            <div class="work-header">
+                Work
+            </div>
+            <div>
+                <div class="work-dates">
+                    2009-2010<br>
+                    2010-2011<br>
+                </div>
+                <div class="work-experience">
+                    Hardiee&rsquo;s<br>
+                    Play it Again Sports<br>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h3>Skills</h3>
+        <table cellspacing="10">
+            <tr>
+                <td>
+                    HTML5
+                </td>
+                <td>
+                    ⭐️⭐️⭐️⭐️
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    JavaScript
+                </td>
+                <td>
+                    ⭐️⭐️⭐️
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    CSS3
+                </td>
+                <td>
+                    ⭐️⭐️⭐️⭐️
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Java
+                </td>
+                <td>
+                    ⭐⭐️
+                </td>
+            </tr>
+        </table>
         <h3>Hobbies</h3>
         <ol>
             <li>
@@ -44,10 +121,13 @@
         </ol>
 
         <hr>
-        <form>
-            <label>form</label>
-            <input type="file">
-        </form>
+        <a class="contact-me" href="contact.html">Contact Me</a>
+        <div style="margin: 20px;">
+            <form>
+                <label style="display: block; padding-bottom: 8px;">Upload a file for review:</label>
+                <input type="file">
+            </form>
+        </div>
     </body>
 
 </html>
