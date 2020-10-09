@@ -1,0 +1,43 @@
+:root {
+    --black: #000000;
+    --lightGrey: #d3d3d3;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--lightGrey);
+}
+
+hr {
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 6px dotted var(--white);
+    width: 8%;
+}
+
+.work-container {
+    width: 100%;
+}
+
+.work-dates {
+    display: inline-block;
+    margin: 20px;
+}
+
+.work-experience {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.work-header {
+    display: inline-block;
+    margin: 20px;
+}
+
+.contact-me {
+    color: var(--black);
+    cursor: pointer;
+    margin: 16px;
+    text-decoration: none;
+}
